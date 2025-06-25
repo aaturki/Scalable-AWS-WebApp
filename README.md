@@ -1,3 +1,22 @@
+# Project: Deploying a Scalable Web Application on AWS with Terraform
+
+This repository contains the infrastructure as code (IaC) and documentation for deploying a scalable, highly available web application on AWS. The entire architecture is defined using Terraform, demonstrating modern cloud engineering practices.
+
+## Table of Contents
+
+- [1. Project Overview](#1-project-overview)
+- [2. Solution Architecture Diagram](#2-solution-architecture-diagram)
+- [3. Key Features](#3-key-features)
+- [4. Infrastructure as Code (IaC)](#4-infrastructure-as-code-iac)
+- [5. How to Deploy](#5-how-to-deploy)
+- [6. Demonstration Video](#6-demonstration-video)
+
+## 1. Project Overview
+
+This project builds a fault-tolerant web application environment. An Application Load Balancer distributes traffic across EC2 instances managed by an Auto Scaling Group. This ensures the application can handle changes in traffic load automatically while optimizing costs. The infrastructure is deployed across multiple Availability Zones for high availability.
+
+## 2. Solution Architecture Diagram
+
 ```mermaid
 graph TD
     subgraph AWS Cloud
